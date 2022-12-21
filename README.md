@@ -73,7 +73,3 @@ npm start
 Request to connect to metamask using the button in the app: select one of the imported accounts
 
 ```
-
-## Authors
-Amanda Wetter and 
-Tsigereda Nebai Kidane
