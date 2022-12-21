@@ -1,0 +1,54 @@
+.main {
+  margin: 150px 0;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 150px;
+}
+
+.device {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: azure;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.product {
+  margin-right: 50px;
+}
+
+.windows {
+  margin-left: 50px;
+}
+
+
+.device > .btn {
+  margin-left: 100px;
+  padding: 10px 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

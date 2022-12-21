@@ -1,0 +1,14 @@
+FROM node:alpine
+
+COPY truffle /app/truffle
+
+RUN npm install -g truffle
+RUN npm install -g ganache
+
+WORKDIR /app/truffle
+
+EXPOSE 8545
+
+ENTRYPOINT [ "/bin/sh" ]
+
+CMD [ "./entry.sh" ]

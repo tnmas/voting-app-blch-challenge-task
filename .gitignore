@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+truffle/contracts/artifacts
+src/contracts
+.idea
+.vscode
+.github
